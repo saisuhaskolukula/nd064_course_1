@@ -1,0 +1,9 @@
+apiVersion: v1
+name: techtrends 
+description: Deploy the Tech Trends website.
+keywords:
+- techtrends 
+version: 1.0.0
+maintainers:
+- name: Sai Suhas Kolukula 
+  email: sai.suhas.kolukula@philips.com
