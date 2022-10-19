@@ -26,10 +26,10 @@ containerPort: 3111
 
 livenessProbe:
   path: /healthz
-  port: {{ tpl .Values.containerPort . }}
+  port: 3111
 readinessProbe:
     path: '/healthz'
-    port: {{ tpl .Values.containerPort . }}
+    port: 3111
 
 
 
